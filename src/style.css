@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  margin-left: 10%;
+}
+
+.title {
+  color: black;
+  margin-left: 20px;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  position: relative;
+  margin: 0 15%;
+}
+
+.top-table {
+  padding: 10px;
+  width: 60%;
+}
+
+.recentScores {
+  color: black;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.btn-refresh {
+  color: #202020;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.top-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+
+#leaderboard {
+  border: 2px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 10%;
+}
+
+form input,
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  box-shadow: 1px 1px black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+}
+
+button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.AddScores {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+::placeholder {
+  color: #000;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.score {
+  font-weight: bold;
+}
+
+#leaderboard li.score:nth-child(even) {
+  background-color: #ddd;
+}
