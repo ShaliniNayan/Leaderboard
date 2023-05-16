@@ -78,6 +78,8 @@ button {
   margin: 5px;
   border: 2px solid black;
   box-shadow: 1px 1px black;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {

@@ -1,13 +1,13 @@
 import './style.css';
 /* eslint-disable no-restricted-syntax */
 // Initialize leaderboard data
-const leaderboardData = [
-  { name: 'Shalini', score: 120 },
-  { name: 'Mohit', score: 150 },
-  { name: 'Peter', score: 100 },
-  { name: 'Sarah', score: 180 },
-  { name: 'Dave', score: 90 },
-];
+// const leaderboardData = [
+//   { name: 'Shalini', score: 120 },
+//   { name: 'Mohit', score: 150 },
+//   { name: 'Peter', score: 100 },
+//   { name: 'Sarah', score: 180 },
+//   { name: 'Dave', score: 90 },
+// ];
 
 // Display leaderboard function
 function displayLeaderboard() {
@@ -22,6 +22,7 @@ function displayLeaderboard() {
   headerEl.classList.add('header');
 
   // Loop through each score in leaderboard array and create HTML elements
+  const leaderboard = document.querySelector('#leaderboard');
   for (const score of leaderboard) {
     const scoreEl = document.createElement('li');
     scoreEl.classList.add('score');
