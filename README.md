@@ -155,7 +155,7 @@ Example command:
     npm test
 ```
 
-### Deployment
+<!-- ### Deployment
 
 You can deploy this project using:
 
@@ -163,7 +163,7 @@ Example:
 
 ```sh
 github pages
-```
+``` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
