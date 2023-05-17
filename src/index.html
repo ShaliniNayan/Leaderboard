@@ -4,7 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -18,15 +17,15 @@
                   <h2 class="recentScores">Recent scores</h2>
                   <button type="button" class="btn-refresh">Refresh</button>
               </div>
-              <ul id="leaderboard">
-                  <!-- <li class="header">
-                  </li> -->
-              </ul>
+              <div id="leaderboard">
+                  <ul class="scoresList">
+                  </ul>
+              </div>
           </div>
           <form>
             <h2 class="AddScores">Add your score</h2>
             <div class="inputs">
-              <input type="text" id="name" placeholder="Your name" name="name" required>
+              <input type="text" id="name" placeholder="Your name" name="text-name" required>
               <input type="number" id="score" placeholder="Your score" name="score" min="0" max="100" required>
             </div>
             <button type="submit">Submit</button>
