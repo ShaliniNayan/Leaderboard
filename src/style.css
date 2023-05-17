@@ -89,7 +89,7 @@ ul {
   width: 100%;
 }
 
-.header {
+.scoreList  {
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
