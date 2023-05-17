@@ -1,11 +1,11 @@
-import { getData, postData } from './add.js';
+import { getData, postData } from './add';
 
 function Score(score, name) {
   this.score = score;
   this.user = name;
 }
 
-export default class gamesScores {
+export default class GamesScores {
   constructor() {
     this.scores = [];
   }
@@ -25,20 +25,20 @@ export default class gamesScores {
     const container = document.querySelector('.scoresList');
     container.innerHTML = '';
     this.scores.forEach((score) => {
-        const scoreEl = document.createElement('li');
-        scoreEl.classList.add('score');
-    
-        const nameEl = document.createElement('span');
-        nameEl.classList.add('name');
-        nameEl.innerText = score.user;
-        scoreEl.appendChild(nameEl);
-    
-        const valueEl = document.createElement('span');
-        valueEl.classList.add('score');
-        valueEl.innerText = score.score;
-        scoreEl.appendChild(valueEl);
-    
-        container.appendChild(scoreEl);
+      const scoreEl = document.createElement('li');
+      scoreEl.classList.add('score');
+
+      const nameEl = document.createElement('span');
+      nameEl.classList.add('name');
+      nameEl.innerText = score.user;
+      scoreEl.appendChild(nameEl);
+
+      const valueEl = document.createElement('span');
+      valueEl.classList.add('score');
+      valueEl.innerText = score.score;
+      scoreEl.appendChild(valueEl);
+
+      container.appendChild(scoreEl);
     });
   };
 }
