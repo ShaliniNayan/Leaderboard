@@ -42,7 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    <!-- - [🚀 Live Demo](#live-demo) -->
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -111,9 +111,9 @@ In subsequent activities, the app will be enhanced to consume the Leaderboard AP
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a> -->
 
-<!-- - [Live Demo Link](Comming Soon...) -->
+[Live Demo Link]( https://shalininayan.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +155,7 @@ Example command:
     npm test
 ```
 
-<!-- ### Deployment
+### Deployment
 
 You can deploy this project using:
 
@@ -163,7 +163,7 @@ Example:
 
 ```sh
 github pages
-``` -->
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,9 +223,6 @@ I would like to thank microverse community and my coding partner for their dedic
 
   - yes
 
-- **Question_2: Do the project use database?**
-
-  - Answer_2: not at the moment. To be used as we scale the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
