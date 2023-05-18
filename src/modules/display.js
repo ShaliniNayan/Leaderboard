@@ -1,9 +1,9 @@
 import { getData, postData } from './add';
 
-const Score = (score, name) => {
+function Score(score, name) {
   this.score = score;
   this.user = name;
-};
+}
 
 export default class GamesScores {
   constructor() {
@@ -24,6 +24,7 @@ export default class GamesScores {
   displayScores = () => {
     const container = document.querySelector('.scoresList');
     container.innerHTML = '';
+    this.scores.sort((a, b) => b.score - a.score);
     this.scores.forEach((score) => {
       const scoreEl = document.createElement('li');
       scoreEl.classList.add('score');
