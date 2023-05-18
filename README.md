@@ -111,9 +111,9 @@ In subsequent activities, the app will be enhanced to consume the Leaderboard AP
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link]( https://shalininayan.github.io/Leaderboard/)
+[Live Demo Link](https://shalininayan.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +222,6 @@ I would like to thank microverse community and my coding partner for their dedic
 - **Question_1: Have you used linters to check for bugs?**
 
   - yes
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
