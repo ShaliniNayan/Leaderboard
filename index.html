@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <header>
+      <h1 class="title">Leaderboard</h1>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="table">
+          <div class="top-table">
+            <div class="top-heading">
+              <h2 class="recentScores">Recent scores</h2>
+              <button type="button" class="btn-refresh">Refresh</button>
+            </div>
+            <div id="leaderboard">
+              <ul class="scoresList"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="tablesSocre">
+          <form>
+            <h2 class="AddScores">Add your score</h2>
+            <div class="inputs">
+              <input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                name="text-name"
+                required
+              />
+              <input
+                type="number"
+                id="score"
+                placeholder="Your score"
+                name="score"
+                min="0"
+                max="100"
+                required
+              />
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Designed by
+        <a href="https://github.com/ShaliniNayan">&#x23; Shalini Nayan</a>
+      </p>
+    </footer>
+  </body>
+</html>
