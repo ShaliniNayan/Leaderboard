@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #242222;
+}
+
+a:hover {
+  color: #34a654;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,10 +27,32 @@ body {
   overflow-x: hidden;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #f1f6f9;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0.625rem;
+}
+
+.hero {
+  padding: 50px 0;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
 }
 
 header {
-  margin-left: 10%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 2rem 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 0.625rem;
+  width: 100%;
 }
 
 .title {
@@ -22,33 +65,20 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: auto;
+  width: 100%;
   position: relative;
   margin: 0 15%;
 }
 
 .top-table {
   padding: 10px;
-  width: 60%;
+  width: 100%;
 }
 
 .recentScores {
   color: black;
   margin: 10px;
   font-size: 30px;
-}
-
-.btn-refresh {
-  color: #202020;
-  background-color: #fff;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border: 1px solid black;
-  box-shadow: 2px 2px black;
 }
 
 .top-heading {
@@ -67,13 +97,22 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin-left: 10%;
+}
+
+form input[type='text'],
+form input[type='number'] {
+  margin-bottom: 1.1rem;
+  padding: 0.625rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
 form input,
 button {
-  width: 45%;
+  width: 51%;
   padding: 10px;
   margin: 5px;
   border: 2px solid black;
@@ -102,10 +141,17 @@ button {
   justify-content: center;
   align-items: center;
   margin-left: 32%;
-  background-color: #fff;
-  color: #000;
-  border: 1px solid black;
-  box-shadow: 2px 2px black;
+  background-color: #146c94;
+  color: #fff;
+  border: 1px solid #b0daff;
+  box-shadow: 2px 2px #b0daff;
+  cursor: pointer;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #19a7ce;
 }
 
 .AddScores {
@@ -130,4 +176,15 @@ button {
 
 #leaderboard li.score:nth-child(even) {
   background-color: #ddd;
+}
+
+.tablesSocre {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  margin: auto;
+  width: 85%;
+  height: 10vh;
 }
